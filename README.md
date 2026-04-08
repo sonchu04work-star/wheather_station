@@ -52,10 +52,12 @@ Dự án sử dụng vi điều khiển ESP32, màn hình 1.8" TFT SPI (ST7735) 
 
 ## 🚀 Hướng dẫn Cài đặt & Chạy dự án
 
-### Phần 1: Thiết lập Máy chủ Database (MySQL)
-1. Cài đặt MySQL Server trên máy tính.
-2. Tạo database và bảng dữ liệu bằng lệnh SQL sau:
-sql
+Phần 1: Thiết lập Máy chủ Database (MySQL)
+Cài đặt MySQL Server trên máy tính.
+
+Tạo database và bảng dữ liệu bằng lệnh SQL sau:
+
+SQL
 CREATE DATABASE weather_station_db;
 USE weather_station_db;
 
