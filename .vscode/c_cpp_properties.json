@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/Users/binbin/esp/esp-idf/components/**",
+                "/Users/binbin/esp/esp-idf/examples/peripherals/uart/nmea0183_parser/**",
+                "/Users/binbin/esp/esp-idf/components/newlib/platform_include"
+            ],
+            "defines": [],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-clang-arm64"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,2 @@
+source /Users/binbin/esp/Project/wheather_station/build/bootloader/gdbinit/symbols
+source /Users/binbin/esp/Project/wheather_station/build/bootloader/gdbinit/connect
