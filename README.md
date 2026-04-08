@@ -52,7 +52,7 @@ Dự án sử dụng vi điều khiển ESP32, màn hình 1.8" TFT SPI (ST7735) 
 
 ## 🚀 Hướng dẫn Cài đặt & Chạy dự án
 
-###Phần 1: Thiết lập Máy chủ Database (MySQL)
+### Phần 1: Thiết lập Máy chủ Database (MySQL)
 Cài đặt MySQL Server trên máy tính.
 
 Tạo database và bảng dữ liệu bằng lệnh SQL sau:
@@ -70,7 +70,7 @@ CREATE TABLE sensor_data (
     longitude FLOAT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-###Phần 2: Khởi động Python Server
+### Phần 2: Khởi động Python Server
 Cài đặt các thư viện Python cần thiết:
 
 Bash
@@ -83,7 +83,7 @@ Bash
 python app.py
 Lưu ý: Sau khi chạy, Terminal của Python sẽ tự động in ra một đường link chứa địa chỉ IP mạng LAN (VD: http://192.168.1.15:5001/api/weather). Hãy copy đường link này.
 
-###Phần 3: Nạp Code cho mạch ESP32
+### Phần 3: Nạp Code cho mạch ESP32
 Mở dự án wheather_station bằng VS Code (đã cài extension ESP-IDF).
 
 Dán đường link IP vừa copy ở bước trên vào biến PYCHARM_SERVER_URL trong file main/wheather_station.c.
