@@ -98,11 +98,14 @@ CONFIG_LV_USE_ANIMATION=n
 CONFIG_LV_USE_SHADOW=n
 CONFIG_PARTITION_TABLE_SINGLE_APP=n
 CONFIG_PARTITION_TABLE_SINGLE_APP_LARGE=y
+
 Dọn dẹp, Build và Nạp code:
 
 Bash
 idf.py fullclean
-idf.py build flash monitor
+idf.py build 
+idf.py -p PORT flash
+
 Tài liệu API (API Endpoints)
 Máy chủ Python cung cấp 2 API chính:
 
