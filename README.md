@@ -1,4 +1,4 @@
-# 🌤️ ESP32 Weather Station & GPS Tracker (Full-stack IoT System)
+# ESP32 Weather Station & GPS Tracker (Full-stack IoT System)
 
 ![ESP32](https://img.shields.io/badge/Hardware-ESP32-blue)
 ![ESP-IDF](https://img.shields.io/badge/Framework-ESP--IDF-red)
@@ -8,7 +8,7 @@
 
 Một hệ thống trạm thời tiết và định vị GPS IoT hoàn chỉnh. Dự án bao gồm việc thu thập dữ liệu từ cảm biến (Nhiệt độ, Độ ẩm) và tọa độ (GPS NEO-6M), hiển thị trực quan lên màn hình TFT thông qua hệ điều hành giao diện **LVGL** (được tối ưu hóa bộ nhớ), và gửi dữ liệu theo thời gian thực về một máy chủ **Python Flask**. Máy chủ sẽ tự động đánh giá trạng thái thời tiết và lưu trữ vào cơ sở dữ liệu **MySQL**.
 
-## 🌟 Các tính năng chính
+## Các tính năng chính
 
 - **Hardware (C/C++ & ESP-IDF):**
   - Đọc dữ liệu môi trường (Nhiệt độ, Độ ẩm).
@@ -24,7 +24,7 @@ Một hệ thống trạm thời tiết và định vị GPS IoT hoàn chỉnh. 
 
 ---
 
-## 🛠️ Cấu trúc phần cứng (Wiring Diagram)
+## Cấu trúc phần cứng (Wiring Diagram)
 
 Dự án sử dụng vi điều khiển ESP32, màn hình 1.8" TFT SPI (ST7735) và mạch định vị GPS NEO-6M.
 
@@ -50,7 +50,7 @@ Dự án sử dụng vi điều khiển ESP32, màn hình 1.8" TFT SPI (ST7735) 
 
 ---
 
-## 🚀 Hướng dẫn Cài đặt & Chạy dự án
+## Hướng dẫn Cài đặt & Chạy dự án
 
 ### Phần 1: Thiết lập Máy chủ Database (MySQL)
 Cài đặt MySQL Server trên máy tính.
@@ -103,7 +103,7 @@ Dọn dẹp, Build và Nạp code:
 Bash
 idf.py fullclean
 idf.py build flash monitor
-📡 Tài liệu API (API Endpoints)
+Tài liệu API (API Endpoints)
 Máy chủ Python cung cấp 2 API chính:
 
 1. POST /api/weather
